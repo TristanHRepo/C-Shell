@@ -1,7 +1,7 @@
 # C Shell
 This is a implementation of a C shell for the UNIX 
 
-This includes the following features in the shell:
+# Features
 
 ## Command Prompt
 Users are prompted for input by the ':' character
@@ -22,6 +22,8 @@ Foreground proceses are executed by simply typing in the command. A background p
 ## Custom signal behavior for the SIGINT(ctrl-c) and SIGTSTP (ctrl-z)
     - SIGINT: Signals foreground child processes to terminate themselves upon reciept of signal.
     - SIGTSTP: Shell process enters a state where background process cannot be created (& sign is ignored). Can be reverted by sending the signal                     again
+
+# Usage
 
 Compile using the following in a unix system with the gcc compiler:
 
