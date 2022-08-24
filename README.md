@@ -20,8 +20,8 @@ input file redirection via stdin and output file redirection vbia stdout
 ## Foreground and background process handling 
 Foreground proceses are executed by simply typing in the command. A background proces is signaled by & at the end of a command.
 ## Custom signal behavior for the SIGINT(ctrl-c) and SIGTSTP (ctrl-z)
-    - SIGINT: Signals foreground child processes to terminate themselves upon reciept of signal.
-    - SIGTSTP: Shell process enters a state where background process cannot be created (& sign is ignored). Can be reverted by sending the signal                     again
+   - SIGINT: Signals foreground child processes to terminate themselves upon reciept of signal.
+   - SIGTSTP: Shell process enters a state where background process cannot be created (& sign is ignored). Can be reverted by sending the signal                     again
 
 # Usage
 
